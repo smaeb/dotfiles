@@ -1,10 +1,11 @@
 # Terminal Emulator Settings
 window:
+  opacity: 0.9
   padding:
     x: 20
     y: 20
   scrolling:
-    history: 15
+    history: 25
 
 # Setting zsh as the default shell
 shell:

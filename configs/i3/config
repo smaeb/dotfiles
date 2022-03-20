@@ -22,7 +22,7 @@ exec_always --no-startup-id feh --bg-fill -r -z $HOME/Wallpapers
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 #Apps
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec alacritty
 bindsym $mod+r exec --no-startup-id rofi -show drun
 bindsym $mod+Left resize shrink width 20 px
 bindsym $mod+Down resize grow height 20 px
@@ -76,7 +76,7 @@ bindsym $mod+Shift+7 move container to workspace number $ws7
 
 #Others
 bindsym $mod+Shift+r restart
-bindsym $mod+Shift+l exec sh $HOME/bin/lock
+bindsym $mod+Shift+l exec sh $HOME/.bin/lock
 bindsym $mod+Shift+e exit
 
 #Rules

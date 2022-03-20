@@ -1,0 +1,7 @@
+- defaults:
+    lin:
+      create: true
+      relink: true
+- clean:
+  - '~'
+  - ~/.configk

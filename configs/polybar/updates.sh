@@ -8,5 +8,5 @@ for a in $(ls /bin); do
 done
 
 if [[ "$b" -ne "0" ]]; then 
-  printf "";
+  printf " $b";
 fi

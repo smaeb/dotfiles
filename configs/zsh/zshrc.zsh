@@ -5,8 +5,8 @@ PS1="%F{green}%B%~/%b%f "
 export PATH="$HOME/.local/bin/:$PATH"
 
 # Aliases
-alias l='lsd -lh'
-alias ll='lsd -alh'
+alias l='lsd -lh --group-dirs first'
+alias ll='lsd -alh --group-dirs first'
 alias ls='ls --color=auto -t'
 alias cls='clear'
 alias py='python3'

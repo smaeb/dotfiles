@@ -22,12 +22,6 @@ To install this d-files:
   <img src="preview/lock.png">
 </details>
 
-# Installation
-```
-  git clone https://github.com/Manas140/dotfiles.git && cd dotfiles;
-  ./install.sh 
-```
-
 # KeyBinds
 | Key | Action |
 | ----- | ----- |

@@ -1,15 +1,11 @@
 <h1 align="center">Dotfiles</h1>
-<h4 align="center">dotfiles by Manas140</h4>
+<h1 align="center">i3 and laptop focused version of Manas140 dotfiles</h4>
 
-<p align="center">
-    <a href="https://github.com/Manas140/dotfiles/stargazers"><img src="https://img.shields.io/github/stars/Manas140/dotfiles?colorA=151515&colorB=8C977D&style=for-the-badge&logo=starship"></a>
-    <a href="https://github.com/Manas140/dotfiles/issues"><img src="https://img.shields.io/github/issues/Manas140/dotfiles?colorA=151515&colorB=B66467&style=for-the-badge&logo=bugatti"></a>
-    <a href="https://github.com/Manas140/dotfiles/network/members"><img src="https://img.shields.io/github/forks/Manas140/dotfiles?colorA=151515&colorB=8DA3B9&style=for-the-badge&logo=github"></a>
-</p>
+<font size=4> *My dotfiles managed by [DotBot™](https://github.com/anishathalye/dotbot)* </font>
 
-<p align="center">
-  <img src="preview/preview.png">
-</p>
+To install this d-files:
+* Clone
+* Run <code>./install-profile workstation</code>
 
 <details><summary>ShowCase</summary>
 
@@ -35,7 +31,7 @@
 # KeyBinds
 | Key | Action |
 | ----- | ----- |
-| super + Return | kitty |
+| super + Return | alactitty |
 | super + r | rofi |
 | super + b | firefox |
 | Print | flameshot |

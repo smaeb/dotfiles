@@ -1,5 +1,5 @@
 # Prompt
-PS1="%F{green}%B%~/%b%f "
+PS1="%F{green}▶ %B%~/%b%f "
 
 # Exports 
 export PATH="$HOME/.local/bin/:$PATH"

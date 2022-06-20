@@ -1,5 +1,5 @@
 # Prompt
-PS1="%F{green}▶ %B%~/%b%f "
+#PS1="%F{green}▶ %B%~/%b%f "
 
 # Exports 
 export PATH="$HOME/.local/bin/:$PATH"
@@ -17,6 +17,11 @@ source "$HOME/.local/share/zinit/zinit.git/zinit.zsh"
 autoload -Uz _zinit
 (( ${+_comps} )) && _comps[zinit]=_zinit
 ### End of Zinit's installer chunk Start of Zinit installer's chunk
+
+# Prompt
+zinit ice depth=1 atload"!source ~/.zsh/powerlevel10k-settings.zsh" lucid nocd
+zinit light romkatv/powerlevel10k
+
 
 # OMZ libs
 zinit snippet OMZ::lib/grep.zsh
